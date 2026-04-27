@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Employee[] staff = new Employee[2];
          staff[0]=new Developer("Abeera", 5000, 2500);
-         staff[1]=new Manager("Nadeem ", 10000, 20000);
+         staff[1]=new Manager("Nadeem ", 5000, 20000);
 
          for (Employee emp : staff)
          {
